@@ -352,6 +352,9 @@ h1, h2, h3, p {
   background: #e6e8df;
   position: relative;
   border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-media img, .project-media video {
@@ -364,6 +367,25 @@ h1, h2, h3, p {
 .project-card:hover .project-media img,
 .project-card:hover .project-media video {
   transform: scale(1.03);
+}
+
+.media-arrow {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: rgba(255, 255, 255, 0.85);
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+.media-placeholder {
+  font-size: 32px;
+  color: var(--muted);
 }
 
 .project-meta {
