@@ -1,452 +1,82 @@
 <!doctype html>
 <html lang="fa" dir="rtl">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#f6f5f1">
-        <meta name="robots" content="noindex, nofollow, noarchive">
-        <meta name="description" content="مسیر من از طراحی و تولید محتوا تا ساخت اپلیکیشن CRM و یادگیری هوش مصنوعی؛ نمونه‌کارهای تصویری، ویدیویی و اپلیکیشن‌ها.">
-        <title>محدثه رضازاده | طراحی و هوش مصنوعی</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-        <script>
-            if (!/^\/admin\/?$/.test(location.pathname))
-                document.documentElement.classList.add('viewer');
-        </script>
-        <link rel="stylesheet" href="styles.css">
-        <script src="app.js" defer></script>
-    </head>
-    <body>
-        <header class="site-header wrap">
-            <a class="brand" href="#top" aria-label="بازگشت به آغاز صفحه">
-                <span class="brand-mark">
-                    م<span>.</span>
-                </span>
-                <span class="brand-name" id="brandName">محدثه رضازاده</span>
-            </a>
-            <nav class="main-nav" aria-label="منوی اصلی">
-                <a href="#work">نمونه‌کارها</a>
-                <a href="#skills">مهارت‌ها</a>
-                <a href="#about">درباره من</a>
-                <a href="#contact">ارتباط</a>
-            </nav>
-            <button class="admin-link" id="openAdmin" type="button">
-                مدیریت سایت <span aria-hidden="true">↗</span>
-            </button>
-        </header>
-        <main id="top">
-            <section class="hero wrap" aria-labelledby="heroTitle">
-                <div class="hero-copy">
-                    <div class="hero-badge">
-                        <span class="badge-spark" aria-hidden="true">✳</span>
-                        <span id="heroName">محدثه رضازاده</span>
-                        <span class="badge-divider"></span>
-                        <span>طراحی و ساخت ابزار</span>
-                    </div>
-                    <h1 id="heroTitle">
-                        از یک مسئله،<br>
-                        <em>یک ایده</em>
-                        می‌سازم<span class="accent-dot">.</span>
-                    </h1>
-                    <p class="hero-description" id="heroIntro">ثبت دستی گزارش‌های CRM وقت‌گیر بود؛ برایش ابزاری ساختم که گزارش‌های پیست‌شده را به اکسل منتقل می‌کند. حالا طراحی را با یادگیری هوش مصنوعی و ورک‌فلوهای آن ادامه می‌دهم.</p>
-                    <div class="hero-actions">
-                        <a class="button button-dark" href="#work">
-                            کارهامو ببین <span aria-hidden="true">↙</span>
-                        </a>
-                        <a class="text-link" href="#skills">
-                            مهارت‌هایم <span aria-hidden="true">←</span>
-                        </a>
-                    </div>
-                    <div class="hero-footnote">
-                        <span class="footnote-symbol">↘</span>
-                        <span>
-                            برای کشف پروژه‌ها<br>کمی پایین‌تر برو
-                        </span>
-                    </div>
-                </div>
-                <div class="hero-art" aria-hidden="true">
-                    <div class="showcase-board">
-                        <span class="board-corner corner-a">＋</span>
-                        <span class="board-corner corner-b">＋</span>
-                        <div class="workflow-window">
-                            <div class="window-top">
-                                <span class="window-dots">
-                                    <i></i>
-                                    <i></i>
-                                    <i></i>
-                                </span>
-                                <span>یک مسئلهٔ واقعی → یک ابزار کاربردی</span>
-                            </div>
-                            <div class="window-body">
-                                <div class="workflow-node node-input">
-                                    <span class="node-glyph">≡</span>
-                                    <span>
-                                        <small>ورودی</small>
-                                        <strong>گزارش‌های CRM</strong>
-                                    </span>
-                                </div>
-                                <span class="node-connector"></span>
-                                <div class="workflow-node node-process">
-                                    <span class="node-glyph">✳</span>
-                                    <span>
-                                        <small>پردازش</small>
-                                        <strong>استخراج داده‌ها</strong>
-                                    </span>
-                                </div>
-                                <span class="node-connector"></span>
-                                <div class="workflow-node node-output">
-                                    <span class="node-glyph">↗</span>
-                                    <span>
-                                        <small>خروجی</small>
-                                        <strong>فایل Excel</strong>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="window-footer">
-                                <span class="live-dot"></span>
-                                پروژهٔ واقعی من <span class="footer-code">CRM / 01</span>
-                            </div>
-                        </div>
-                        <div class="floating-tag tag-ai">
-                            <span>✦</span>
-                            <span>
-                                در حال یادگیری<br>
-                                <strong>AI workflows</strong>
-                            </span>
-                        </div>
-                        <div class="floating-tag tag-visual">
-                            <span>◈</span>
-                            <span>ایده → اجرا</span>
-                        </div>
-                    </div>
-                    <span class="art-caption">فکر کردن، ساختن، بهتر کردن / ۰۱</span>
-                </div>
-            </section>
-            <section class="skills-section" id="skills" aria-labelledby="skillsTitle">
-                <div class="wrap">
-                    <div class="skills-heading">
-                        <div>
-                            <span class="section-kicker">ابزارها و مسیر یادگیری</span>
-                            <h2 id="skillsTitle">
-                                جعبه‌ابزار من<span class="accent-dot">.</span>
-                            </h2>
-                        </div>
-                        <p>از تصویر و ویدیو تا ساختن جریان‌های کاری تازه؛ این‌ها بخشی از چیزهایی‌اند که با آن‌ها کار می‌کنم یا در حال یادگیری‌شان هستم.</p>
-                    </div>
-                    <div class="skills-grid">
-                        <article class="skill-panel skill-ai">
-                            <div class="skill-panel-top">
-                                <span class="skill-symbol ai-symbol" aria-hidden="true">✳</span>
-                                <span class="skill-state">در حال یادگیری</span>
-                            </div>
-                            <div>
-                                <span class="skill-number">۰۱ / مسیر امروز</span>
-                                <h3>
-                                    هوش مصنوعی<br>و ورک‌فلوها
-                                </h3>
-                                <p>در حال آشنایی عمیق‌تر با ساخت جریان‌های کاری و تولید تصویر به کمک ابزارهای هوش مصنوعی.</p>
-                                <div class="tool-pills">
-                                    <span>ComfyUI</span>
-                                    <span>Stable Diffusion</span>
-                                    <span>AI Workflows</span>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="skill-panel skill-design">
-                            <div class="skill-panel-top">
-                                <span class="skill-symbol" aria-hidden="true">◇</span>
-                                <span class="skill-state">دوره‌های تخصصی</span>
-                            </div>
-                            <div>
-                                <span class="skill-number">۰۲ / تصویر و هویت</span>
-                                <h3>طراحی گرافیک</h3>
-                                <p>ابزارهایی که مسیر طراحی تصویری و کار با هویت بصری را با آن‌ها دنبال کرده‌ام.</p>
-                                <div class="tool-icons">
-                                    <span class="tool-chip">
-                                        <b class="tool-mark mark-ps">Ps</b>
-                                        Photoshop
-                                    </span>
-                                    <span class="tool-chip">
-                                        <b class="tool-mark mark-ai">Ai</b>
-                                        Illustrator
-                                    </span>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="skill-panel skill-motion">
-                            <div class="skill-panel-top">
-                                <span class="skill-symbol" aria-hidden="true">▷</span>
-                                <span class="skill-state">محتوای ویدیویی</span>
-                            </div>
-                            <div>
-                                <span class="skill-number">۰۳ / تصویر متحرک</span>
-                                <h3>ویدیو و موشن</h3>
-                                <p>از ابزارهای تولید محتوای روزمره تا دوره‌های تدوین و موشن گرافیک.</p>
-                                <div class="tool-icons">
-                                    <span class="tool-chip">
-                                        <b class="tool-mark mark-pr">Pr</b>
-                                        Premiere
-                                    </span>
-                                    <span class="tool-chip">
-                                        <b class="tool-mark mark-ae">Ae</b>
-                                        After Effects
-                                    </span>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="skills-note">
-                        <span>همچنین در مسیر تولید محتوا با Canva، CapCut و InShot کار کرده‌ام.</span>
-                        <span aria-hidden="true">↗</span>
-                    </div>
-                </div>
-            </section>
-            <section class="work-section" id="work" aria-labelledby="workTitle">
-                <div class="wrap">
-                    <div class="section-heading">
-                        <div>
-                            <span class="section-kicker">پروژه‌ها / آنچه ساخته‌ام</span>
-                            <h2 id="workTitle">
-                                از ایده تا خروجی<span class="accent-dot">.</span>
-                            </h2>
-                        </div>
-                        <p>هر پروژه یک مسئله، یک تجربه یا یک راه تازه برای ساختن بوده است.</p>
-                    </div>
-                    <div class="work-toolbar">
-                        <div class="filters" role="group" aria-label="فیلتر نمونه‌کارها">
-                            <button class="filter active" type="button" data-filter="all" aria-pressed="true">
-                                همه <span id="allCount">۰۰</span>
-                            </button>
-                            <button class="filter" type="button" data-filter="image" aria-pressed="false">تصویر</button>
-                            <button class="filter" type="button" data-filter="video" aria-pressed="false">ویدیو</button>
-                            <button class="filter" type="button" data-filter="app" aria-pressed="false">اپلیکیشن</button>
-                        </div>
-                        <span class="work-note">برای دیدن جزئیات، روی هر پروژه بزنید.</span>
-                    </div>
-                    <div class="project-grid" id="projectGrid"></div>
-                    <div class="empty-state" id="emptyState" hidden>
-                        <button class="button button-outline" type="button" id="emptyAdmin">
-                            افزودن نمونه‌کار <span aria-hidden="true">＋</span>
-                        </button>
-                    </div>
-                </div>
-            </section>
-            <section class="about-section wrap" id="about" aria-labelledby="aboutTitle">
-                <div class="about-content">
-                    <span class="section-kicker">کمی دربارهٔ من</span>
-                    <h2 id="aboutTitle">
-                        مسیرم با <em>کنجکاوی</em>
-                        <br>
-                        ادامه پیدا می‌کند<span class="accent-dot">.</span>
-                    </h2>
-                    <p class="about-lead">از شیمی کاربردی به طراحی دیجیتال رسیدم؛ از کارهای تکراری به ساخت یک ابزار برای ساده‌تر کردنشان. حالا یادگیری هوش مصنوعی، بخش تازهٔ این مسیر است.</p>
-                    <details class="story-details">
-                        <summary>
-                            داستان کامل من <span aria-hidden="true">＋</span>
-                        </summary>
-                        <p id="aboutText">من محدثه رضازاده هستم. در سال ۱۳۹۸ وارد رشتهٔ شیمی کاربردی دانشگاه آزاد اسلامی واحد تهران مرکزی شدم و در سال ۱۴۰۲ دورهٔ کارشناسی را با معدل ۱۶ به پایان رساندم. تجربه‌های کاری متفاوت، مرا به طراحی دیجیتال و سپس ساخت ابزارهای کاربردی رساند. امروز یادگیری هوش مصنوعی را با تمرکز بر ComfyUI، Stable Diffusion و ورک‌فلوها دنبال می‌کنم.</p>
-                    </details>
-                </div>
-                <div class="journey-cards" aria-label="ایستگاه‌های مسیر من">
-                    <div class="journey-card">
-                        <span>۱۳۹۸ → ۱۴۰۲</span>
-                        <strong>شیمی کاربردی</strong>
-                        <small>شروع مسیر دانشگاهی</small>
-                    </div>
-                    <div class="journey-card">
-                        <span>۱۴۰۳</span>
-                        <strong>طراحی و محتوا</strong>
-                        <small>ورود جدی‌تر به کارهای دیجیتال</small>
-                    </div>
-                    <div class="journey-card journey-current">
-                        <span>امروز ✳</span>
-                        <strong>هوش مصنوعی</strong>
-                        <small>یادگیری، آزمایش و ساختن</small>
-                    </div>
-                </div>
-            </section>
-            <section class="contact-section" id="contact" aria-labelledby="contactTitle">
-                <div class="wrap contact-inner">
-                    <div>
-                        <span class="section-kicker">۰۳ / در تماس باشیم</span>
-                        <h2 id="contactTitle">
-                            ایده‌ای برای همکاری داری؟<br>
-                            <em>با هم حرف بزنیم.</em>
-                        </h2>
-                    </div>
-                    <div class="contact-side">
-                        <p>برای گفتگو دربارهٔ پروژه‌ها و همکاری، از راه‌های ارتباطی زیر پیام بده.</p>
-                        <a id="emailLink" class="contact-email" hidden></a>
-                        <span id="contactPlaceholder" class="contact-placeholder">راه ارتباطی به‌زودی اینجا قرار می‌گیرد.</span>
-                        <a id="socialLink" class="social-link" hidden target="_blank" rel="noopener noreferrer">
-                            شبکهٔ اجتماعی <span aria-hidden="true">↗</span>
-                        </a>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="site-footer wrap">
-            <a class="footer-brand" href="#top">
-                م<span>.</span>
-            </a>
-            <span>ساخته شده برای نمایش آنچه خلق می‌کنم.</span>
-            <a href="#top">بازگشت به بالا ↑</a>
-        </footer>
-        <dialog id="adminDialog" class="dialog admin-dialog">
-            <div class="dialog-shell">
-                <button class="dialog-close" type="button" data-close aria-label="بستن">×</button>
-                <div class="dialog-heading">
-                    <span class="section-kicker">فضای مدیریت</span>
-                    <h2>
-                        مدیریت سایت<span class="accent-dot">.</span>
-                    </h2>
-                    <p>معرفی‌ات را ویرایش کن و کارهای تازه اضافه کن.</p>
-                </div>
-                <div id="loginPanel">
-                    <form id="loginForm" class="stack-form">
-                        <label>
-                            رمز مدیریت<input name="password" type="password" autocomplete="current-password" required placeholder="رمز سایت را وارد کنید">
-                        </label>
-                        <button class="button button-dark" type="submit">
-                            ورود به مدیریت <span aria-hidden="true">←</span>
-                        </button>
-                    </form>
-                </div>
-                <div id="adminPanel" hidden>
-                    <div class="admin-tabs">
-                        <button type="button" class="admin-tab active" data-tab="library">بارگذاری فایل‌ها</button>
-                        <button type="button" class="admin-tab" data-tab="projects">نمایش در سایت</button>
-                        <button type="button" class="admin-tab" data-tab="profile">معرفی و ارتباط</button>
-                    </div>
-                    <div id="libraryTab">
-                        <p class="library-intro">عکس‌ها و ویدیوها را همین‌جا بارگذاری کن؛ بدون عنوان‌نویسی در گالری سایت نمایش داده می‌شوند.</p>
-                        <div class="upload-drop" id="uploadDrop" role="button" tabindex="0" aria-label="انتخاب عکس و ویدیو برای بارگذاری">
-                            <input id="libraryInput" type="file" accept="image/jpeg,image/png,image/webp,image/gif,image/avif,video/mp4,video/webm,video/quicktime,.mov,.m4v,.ogv" multiple hidden>
-                            <span class="upload-icon" aria-hidden="true">↑</span>
-                            <h3>فایل‌هات رو اینجا بنداز</h3>
-                            <p>یا چند عکس و ویدیو را با هم انتخاب کن؛ هر فایل تا ۵۰۰ مگابایت.</p>
-                            <button id="pickFiles" class="button button-dark" type="button">
-                                انتخاب عکس و ویدیو <span aria-hidden="true">＋</span>
-                            </button>
-                        </div>
-                        <p id="libraryFeedback" class="library-feedback" role="status" aria-live="polite"></p>
-                        <div id="libraryProgressBox" class="library-progress" hidden>
-                            <div>
-                                <strong id="libraryProgressLabel">در حال بارگذاری...</strong>
-                                <span id="libraryProgressCount"></span>
-                            </div>
-                            <progress id="libraryProgress" max="100" value="0"></progress>
-                        </div>
-                        <div class="library-list-heading">
-                            <h3>
-                                فایل‌های ذخیره‌شده <span id="libraryCount">۰</span>
-                            </h3>
-                            <span>کارهای منتشرشده برای بازدیدکننده‌ها دیده می‌شوند.</span>
-                        </div>
-                        <button id="publishAllLibrary" class="button button-outline publish-library-button" type="button">نمایش فایل‌های باقی‌مانده در سایت</button>
-                        <div id="libraryGrid" class="library-grid"></div>
-                    </div>
-                    <div id="projectsTab" hidden>
-                        <div class="publish-panel">
-                            <h3>نمونه‌کارها را نمایش بده</h3>
-                            <p>فایل‌هایی که در کتابخانه بارگذاری کرده‌ای بدون نیاز به عنوان یا بارگذاری دوباره در گالری سایت قرار می‌گیرند.</p>
-                            <button id="publishAll" class="button button-dark" type="button">
-                                نمایش همهٔ فایل‌ها در سایت <span aria-hidden="true">←</span>
-                            </button>
-                        </div>
-                        <details class="advanced-project">
-                            <summary>افزودن پروژه با عنوان و توضیح (اختیاری)</summary>
-                            <form id="projectForm" class="stack-form">
-                                <div class="form-row">
-                                    <label>
-                                        عنوان پروژه <input name="title" maxlength="100" required placeholder="مثلاً طراحی اپلیکیشن من">
-                                    </label>
-                                    <label>
-                                        نوع نمونه‌کار 
-                                        <select name="kind" id="projectKind">
-                                            <option value="image">تصویر</option>
-                                            <option value="video">ویدیو</option>
-                                            <option value="app">اپلیکیشن</option>
-                                        </select>
-                                    </label>
-                                </div>
-                                <label>
-                                    توضیح کوتاه <textarea name="description" rows="3" maxlength="600" placeholder="چند خط دربارهٔ این کار..."></textarea>
-                                </label>
-                                <div id="mediaField">
-                                    <label>
-                                        فایل اصلی <input name="media" id="mediaInput" type="file" accept="image/*" required>
-                                        <small id="mediaHint">یک تصویر انتخاب کنید.</small>
-                                    </label>
-                                </div>
-                                <div id="appField" hidden>
-                                    <label>
-                                        لینک نمایش اپلیکیشن <span class="optional">(اختیاری)</span>
-                                        <input name="appUrl" type="url" placeholder="https://example.com">
-                                        <small>اگر نسخهٔ آنلاین ندارید، این بخش را خالی بگذارید.</small>
-                                    </label>
-                                    <label>
-                                        فایل برنامه <span class="optional">(اختیاری؛ ZIP یا RAR)</span>
-                                        <input name="package" type="file" accept=".zip,.rar">
-                                        <small>اگر می‌خواهید بازدیدکننده برنامه را دریافت کند، فایل فشردهٔ آمادهٔ انتشار را انتخاب کنید.</small>
-                                    </label>
-                                </div>
-                                <label>
-                                    تصویر کاور <span class="optional">(اختیاری)</span>
-                                    <input name="cover" type="file" accept="image/*">
-                                    <small>برای ویدیو و اپلیکیشن، کاور ظاهر گالری را بهتر می‌کند.</small>
-                                </label>
-                                <button class="button button-dark" type="submit" id="saveProject">
-                                    افزودن نمونه‌کار <span aria-hidden="true">＋</span>
-                                </button>
-                            </form>
-                        </details>
-                        <div class="admin-projects">
-                            <h3>کارهای ثبت‌شده</h3>
-                            <div id="adminProjectList"></div>
-                        </div>
-                    </div>
-                    <div id="profileTab" hidden>
-                        <form id="profileForm" class="stack-form">
-                            <label>
-                                نام شما <input name="name" maxlength="80" placeholder="نام و نام خانوادگی">
-                            </label>
-                            <label>
-                                متن کوتاه ابتدای سایت <textarea name="intro" rows="3" maxlength="500"></textarea>
-                            </label>
-                            <label>
-                                داستان شما در بخش «درباره من» <textarea name="about" rows="6" maxlength="2000"></textarea>
-                            </label>
-                            <div class="form-row">
-                                <label>
-                                    ایمیل ارتباطی <input name="email" type="email" placeholder="hello@example.com">
-                                </label>
-                                <label>
-                                    لینک شبکهٔ اجتماعی <input name="social" type="url" placeholder="https://...">
-                                </label>
-                            </div>
-                            <button class="button button-dark" type="submit">
-                                ذخیرهٔ تغییرات <span aria-hidden="true">✓</span>
-                            </button>
-                        </form>
-                    </div>
-                    <button type="button" id="logout" class="logout-button">خروج از مدیریت</button>
-                </div>
-                <p class="form-message" id="adminMessage" role="status" aria-live="polite"></p>
-            </div>
-        </dialog>
-        <dialog id="projectDialog" class="dialog project-dialog">
-            <div class="dialog-shell">
-                <button class="dialog-close" type="button" data-close aria-label="بستن">×</button>
-                <div id="projectDetail"></div>
-            </div>
-        </dialog>
-        <dialog id="libraryDialog" class="dialog library-dialog">
-            <div class="dialog-shell">
-                <button class="dialog-close" type="button" data-close aria-label="بستن">×</button>
-                <div id="libraryViewer"></div>
-            </div>
-        </dialog>
-    </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5f1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="description" content="مسیر من از طراحی و تولید محتوا تا ساخت اپلیکیشن CRM و یادگیری هوش مصنوعی؛ نمونه‌کارهای تصویری، ویدیویی و اپلیکیشن‌ها.">
+  <title>محدثه رضازاده | طراحی و هوش مصنوعی</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>if (!/^\/admin\/?$/.test(location.pathname)) document.documentElement.classList.add('viewer');</script>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/redesign.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header wrap">
+    <a class="brand" href="#top" aria-label="بازگشت به آغاز صفحه"><span class="brand-mark">م<span>.</span></span><span class="brand-name" id="brandName">محدثه رضازاده</span></a>
+    <nav class="main-nav" aria-label="منوی اصلی"><a href="#work">نمونه‌کارها</a><a href="#skills">مهارت‌ها</a><a href="#about">درباره من</a><a href="#contact">ارتباط</a></nav>
+    <button class="admin-link" id="openAdmin" type="button">مدیریت سایت <span aria-hidden="true">↗</span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap" aria-labelledby="heroTitle">
+      <div class="hero-copy">
+        <div class="hero-badge"><span class="badge-spark" aria-hidden="true">✳</span><span id="heroName">محدثه رضازاده</span><span class="badge-divider"></span><span>طراحی و ساخت ابزار</span></div>
+        <h1 id="heroTitle">از یک مسئله،<br><em>یک ایده</em> می‌سازم<span class="accent-dot">.</span></h1>
+        <p class="hero-description" id="heroIntro">ثبت دستی گزارش‌های CRM وقت‌گیر بود؛ برایش ابزاری ساختم که گزارش‌های پیست‌شده را به اکسل منتقل می‌کند. حالا طراحی را با یادگیری هوش مصنوعی و ورک‌فلوهای آن ادامه می‌دهم.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#work">کارهامو ببین <span aria-hidden="true">↙</span></a><a class="text-link" href="#skills">مهارت‌هایم <span aria-hidden="true">←</span></a></div>
+        <div class="hero-footnote"><span class="footnote-symbol">↘</span><span>برای کشف پروژه‌ها<br>کمی پایین‌تر برو</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="showcase-board">
+          <span class="board-corner corner-a">＋</span><span class="board-corner corner-b">＋</span>
+          <div class="workflow-window">
+            <div class="window-top"><span class="window-dots"><i></i><i></i><i></i></span><span>یک مسئلهٔ واقعی → یک ابزار کاربردی</span></div>
+            <div class="window-body"><div class="workflow-node node-input"><span class="node-glyph">≡</span><span><small>ورودی</small><strong>گزارش‌های CRM</strong></span></div><span class="node-connector"></span><div class="workflow-node node-process"><span class="node-glyph">✳</span><span><small>پردازش</small><strong>استخراج داده‌ها</strong></span></div><span class="node-connector"></span><div class="workflow-node node-output"><span class="node-glyph">↗</span><span><small>خروجی</small><strong>فایل Excel</strong></span></div></div>
+            <div class="window-footer"><span class="live-dot"></span> پروژهٔ واقعی من <span class="footer-code">CRM / 01</span></div>
+          </div>
+          <div class="floating-tag tag-ai"><span>✦</span><span>در حال یادگیری<br><strong>AI workflows</strong></span></div>
+          <div class="floating-tag tag-visual"><span>◈</span><span>ایده → اجرا</span></div>
+        </div>
+        <span class="art-caption">فکر کردن، ساختن، بهتر کردن / ۰۱</span>
+      </div>
+    </section>
+
+    <section class="skills-section" id="skills" aria-labelledby="skillsTitle">
+      <div class="wrap">
+        <div class="skills-heading"><div><span class="section-kicker">ابزارها و مسیر یادگیری</span><h2 id="skillsTitle">جعبه‌ابزار من<span class="accent-dot">.</span></h2></div><p>از تصویر و ویدیو تا ساختن جریان‌های کاری تازه؛ این‌ها بخشی از چیزهایی‌اند که با آن‌ها کار می‌کنم یا در حال یادگیری‌شان هستم.</p></div>
+        <div class="skills-grid">
+          <article class="skill-panel skill-ai"><div class="skill-panel-top"><span class="skill-symbol ai-symbol" aria-hidden="true">✳</span><span class="skill-state">در حال یادگیری</span></div><div><span class="skill-number">۰۱ / مسیر امروز</span><h3>هوش مصنوعی<br>و ورک‌فلوها</h3><p>در حال آشنایی عمیق‌تر با ساخت جریان‌های کاری و تولید تصویر به کمک ابزارهای هوش مصنوعی.</p><div class="tool-pills"><span>ComfyUI</span><span>Stable Diffusion</span><span>AI Workflows</span></div></div></article>
+          <article class="skill-panel skill-design"><div class="skill-panel-top"><span class="skill-symbol" aria-hidden="true">◇</span><span class="skill-state">دوره‌های تخصصی</span></div><div><span class="skill-number">۰۲ / تصویر و هویت</span><h3>طراحی گرافیک</h3><p>ابزارهایی که مسیر طراحی تصویری و کار با هویت بصری را با آن‌ها دنبال کرده‌ام.</p><div class="tool-icons"><span class="tool-chip"><b class="tool-mark mark-ps">Ps</b>Photoshop</span><span class="tool-chip"><b class="tool-mark mark-ai">Ai</b>Illustrator</span></div></div></article>
+          <article class="skill-panel skill-motion"><div class="skill-panel-top"><span class="skill-symbol" aria-hidden="true">▷</span><span class="skill-state">محتوای ویدیویی</span></div><div><span class="skill-number">۰۳ / تصویر متحرک</span><h3>ویدیو و موشن</h3><p>از ابزارهای تولید محتوای روزمره تا دوره‌های تدوین و موشن گرافیک.</p><div class="tool-icons"><span class="tool-chip"><b class="tool-mark mark-pr">Pr</b>Premiere</span><span class="tool-chip"><b class="tool-mark mark-ae">Ae</b>After Effects</span></div></div></article>
+        </div>
+        <div class="skills-note"><span>همچنین در مسیر تولید محتوا با Canva، CapCut و InShot کار کرده‌ام.</span><span aria-hidden="true">↗</span></div>
+      </div>
+    </section>
+
+    <section class="work-section" id="work" aria-labelledby="workTitle">
+      <div class="wrap">
+        <div class="section-heading"><div><span class="section-kicker">پروژه‌ها / آنچه ساخته‌ام</span><h2 id="workTitle">از ایده تا خروجی<span class="accent-dot">.</span></h2></div><p>هر پروژه یک مسئله، یک تجربه یا یک راه تازه برای ساختن بوده است.</p></div>
+        <div class="work-toolbar"><div class="filters" role="group" aria-label="فیلتر نمونه‌کارها"><button class="filter active" type="button" data-filter="all" aria-pressed="true">همه <span id="allCount">۰۰</span></button><button class="filter" type="button" data-filter="image" aria-pressed="false">تصویر</button><button class="filter" type="button" data-filter="video" aria-pressed="false">ویدیو</button><button class="filter" type="button" data-filter="app" aria-pressed="false">اپلیکیشن</button></div><span class="work-note">برای دیدن جزئیات، روی هر پروژه بزنید.</span></div>
+        <div class="project-grid" id="projectGrid"></div>
+        <div class="empty-state" id="emptyState" hidden><button class="button button-outline" type="button" id="emptyAdmin">افزودن نمونه‌کار <span aria-hidden="true">＋</span></button></div>
+      </div>
+    </section>
+
+    <section class="about-section wrap" id="about" aria-labelledby="aboutTitle"><div class="about-content"><span class="section-kicker">کمی دربارهٔ من</span><h2 id="aboutTitle">مسیرم با <em>کنجکاوی</em><br>ادامه پیدا می‌کند<span class="accent-dot">.</span></h2><p class="about-lead">از شیمی کاربردی به طراحی دیجیتال رسیدم؛ از کارهای تکراری به ساخت یک ابزار برای ساده‌تر کردنشان. حالا یادگیری هوش مصنوعی، بخش تازهٔ این مسیر است.</p><details class="story-details"><summary>داستان کامل من <span aria-hidden="true">＋</span></summary><p id="aboutText">من محدثه رضازاده هستم. در سال ۱۳۹۸ وارد رشتهٔ شیمی کاربردی دانشگاه آزاد اسلامی واحد تهران مرکزی شدم و در سال ۱۴۰۲ دورهٔ کارشناسی را با معدل ۱۶ به پایان رساندم. تجربه‌های کاری متفاوت، مرا به طراحی دیجیتال و سپس ساخت ابزارهای کاربردی رساند. امروز یادگیری هوش مصنوعی را با تمرکز بر ComfyUI، Stable Diffusion و ورک‌فلوها دنبال می‌کنم.</p></details></div><div class="journey-cards" aria-label="ایستگاه‌های مسیر من"><div class="journey-card"><span>۱۳۹۸ → ۱۴۰۲</span><strong>شیمی کاربردی</strong><small>شروع مسیر دانشگاهی</small></div><div class="journey-card"><span>۱۴۰۳</span><strong>طراحی و محتوا</strong><small>ورود جدی‌تر به کارهای دیجیتال</small></div><div class="journey-card journey-current"><span>امروز ✳</span><strong>هوش مصنوعی</strong><small>یادگیری، آزمایش و ساختن</small></div></div></section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contactTitle"><div class="wrap contact-inner"><div><span class="section-kicker">۰۳ / در تماس باشیم</span><h2 id="contactTitle">ایده‌ای برای همکاری داری؟<br><em>با هم حرف بزنیم.</em></h2></div><div class="contact-side"><p>برای گفتگو دربارهٔ پروژه‌ها و همکاری، از راه‌های ارتباطی زیر پیام بده.</p><a id="emailLink" class="contact-email" hidden></a><span id="contactPlaceholder" class="contact-placeholder">راه ارتباطی به‌زودی اینجا قرار می‌گیرد.</span><a id="socialLink" class="social-link" hidden target="_blank" rel="noopener noreferrer">شبکهٔ اجتماعی <span aria-hidden="true">↗</span></a></div></div></section>
+  </main>
+
+  <footer class="site-footer wrap"><a class="footer-brand" href="#top">م<span>.</span></a><span>ساخته شده برای نمایش آنچه خلق می‌کنم.</span><a href="#top">بازگشت به بالا ↑</a></footer>
+
+  <dialog id="adminDialog" class="dialog admin-dialog"><div class="dialog-shell"><button class="dialog-close" type="button" data-close aria-label="بستن">×</button><div class="dialog-heading"><span class="section-kicker">فضای مدیریت</span><h2>مدیریت سایت<span class="accent-dot">.</span></h2><p>معرفی‌ات را ویرایش کن و کارهای تازه اضافه کن.</p></div><div id="loginPanel"><form id="loginForm" class="stack-form"><label>رمز مدیریت<input name="password" type="password" autocomplete="current-password" required placeholder="رمز سایت را وارد کنید"></label><button class="button button-dark" type="submit">ورود به مدیریت <span aria-hidden="true">←</span></button></form></div><div id="adminPanel" hidden><div class="admin-tabs"><button type="button" class="admin-tab active" data-tab="library">بارگذاری فایل‌ها</button><button type="button" class="admin-tab" data-tab="projects">نمایش در سایت</button><button type="button" class="admin-tab" data-tab="profile">معرفی و ارتباط</button></div><div id="libraryTab"><p class="library-intro">عکس‌ها و ویدیوها را همین‌جا بارگذاری کن؛ بدون عنوان‌نویسی در گالری سایت نمایش داده می‌شوند.</p><div class="upload-drop" id="uploadDrop" role="button" tabindex="0" aria-label="انتخاب عکس و ویدیو برای بارگذاری"><input id="libraryInput" type="file" accept="image/jpeg,image/png,image/webp,image/gif,image/avif,video/mp4,video/webm,video/quicktime,.mov,.m4v,.ogv" multiple hidden><span class="upload-icon" aria-hidden="true">↑</span><h3>فایل‌هات رو اینجا بنداز</h3><p>یا چند عکس و ویدیو را با هم انتخاب کن؛ هر فایل تا ۵۰۰ مگابایت.</p><button id="pickFiles" class="button button-dark" type="button">انتخاب عکس و ویدیو <span aria-hidden="true">＋</span></button></div><p id="libraryFeedback" class="library-feedback" role="status" aria-live="polite"></p><div id="libraryProgressBox" class="library-progress" hidden><div><strong id="libraryProgressLabel">در حال بارگذاری...</strong><span id="libraryProgressCount"></span></div><progress id="libraryProgress" max="100" value="0"></progress></div><div class="library-list-heading"><h3>فایل‌های ذخیره‌شده <span id="libraryCount">۰</span></h3><span>کارهای منتشرشده برای بازدیدکننده‌ها دیده می‌شوند.</span></div><button id="publishAllLibrary" class="button button-outline publish-library-button" type="button">نمایش فایل‌های باقی‌مانده در سایت</button><div id="libraryGrid" class="library-grid"></div></div><div id="projectsTab" hidden><div class="publish-panel"><h3>نمونه‌کارها را نمایش بده</h3><p>فایل‌هایی که در کتابخانه بارگذاری کرده‌ای بدون نیاز به عنوان یا بارگذاری دوباره در گالری سایت قرار می‌گیرند.</p><button id="publishAll" class="button button-dark" type="button">نمایش همهٔ فایل‌ها در سایت <span aria-hidden="true">←</span></button></div><details class="advanced-project"><summary>افزودن پروژه با عنوان و توضیح (اختیاری)</summary><form id="projectForm" class="stack-form"><div class="form-row"><label>عنوان پروژه <input name="title" maxlength="100" required placeholder="مثلاً طراحی اپلیکیشن من"></label><label>نوع نمونه‌کار <select name="kind" id="projectKind"><option value="image">تصویر</option><option value="video">ویدیو</option><option value="app">اپلیکیشن</option></select></label></div><label>توضیح کوتاه <textarea name="description" rows="3" maxlength="600" placeholder="چند خط دربارهٔ این کار..."></textarea></label><div id="mediaField"><label>فایل اصلی <input name="media" id="mediaInput" type="file" accept="image/*" required><small id="mediaHint">یک تصویر انتخاب کنید.</small></label></div><div id="appField" hidden><label>لینک نمایش اپلیکیشن <span class="optional">(اختیاری)</span><input name="appUrl" type="url" placeholder="https://example.com"><small>اگر نسخهٔ آنلاین ندارید، این بخش را خالی بگذارید.</small></label><label>فایل برنامه <span class="optional">(اختیاری؛ ZIP یا RAR)</span><input name="package" type="file" accept=".zip,.rar"><small>اگر می‌خواهید بازدیدکننده برنامه را دریافت کند، فایل فشردهٔ آمادهٔ انتشار را انتخاب کنید.</small></label></div><label>تصویر کاور <span class="optional">(اختیاری)</span><input name="cover" type="file" accept="image/*"><small>برای ویدیو و اپلیکیشن، کاور ظاهر گالری را بهتر می‌کند.</small></label><button class="button button-dark" type="submit" id="saveProject">افزودن نمونه‌کار <span aria-hidden="true">＋</span></button></form></details><div class="admin-projects"><h3>کارهای ثبت‌شده</h3><div id="adminProjectList"></div></div></div><div id="profileTab" hidden><form id="profileForm" class="stack-form"><label>نام شما <input name="name" maxlength="80" placeholder="نام و نام خانوادگی"></label><label>متن کوتاه ابتدای سایت <textarea name="intro" rows="3" maxlength="500"></textarea></label><label>داستان شما در بخش «درباره من» <textarea name="about" rows="6" maxlength="2000"></textarea></label><div class="form-row"><label>ایمیل ارتباطی <input name="email" type="email" placeholder="hello@example.com"></label><label>لینک شبکهٔ اجتماعی <input name="social" type="url" placeholder="https://..."></label></div><button class="button button-dark" type="submit">ذخیرهٔ تغییرات <span aria-hidden="true">✓</span></button></form></div><button type="button" id="logout" class="logout-button">خروج از مدیریت</button></div><p class="form-message" id="adminMessage" role="status" aria-live="polite"></p></div></dialog>
+
+  <dialog id="projectDialog" class="dialog project-dialog"><div class="dialog-shell"><button class="dialog-close" type="button" data-close aria-label="بستن">×</button><div id="projectDetail"></div></div></dialog>
+  <dialog id="libraryDialog" class="dialog library-dialog"><div class="dialog-shell"><button class="dialog-close" type="button" data-close aria-label="بستن">×</button><div id="libraryViewer"></div></div></dialog>
+</body>
 </html>
