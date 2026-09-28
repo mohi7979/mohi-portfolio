@@ -12,7 +12,8 @@ const defaults = {
 async function request(path, options = {}) {
   const headers = { ...(options.headers || {}) };
   if (state.password) headers['X-Admin-Password'] = state.password;
-  const response = await fetch(path, { ...options, headers });
+  const staticPath = path === '/api/profile' ? '/profile.json' : path === '/api/projects' ? '/projects.json' : path;
+  const response = await fetch(staticPath, { ...options, headers });
   const data = await response.json().catch(() => ({}));
   if (!response.ok) throw new Error(data.error || 'درخواست انجام نشد. دوباره تلاش کنید.');
   return data;
